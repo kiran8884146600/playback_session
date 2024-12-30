@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "your-terraform-state-bucket"
+    bucket         = "my-bucket-terra"
     key            = "terraform/state"
     region         = var.region
     access_key     = var.access_key
