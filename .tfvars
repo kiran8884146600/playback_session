@@ -1,5 +1,3 @@
 region        = "us-east-1"
-access_key    = "AKIAQXPZDDGE6KKMGAUB"
-secret_key    = "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"
 ami_id        = "ami-01816d07b1128cd2d"
 instance_type = "t2.micro"
