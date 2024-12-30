@@ -4,7 +4,7 @@ provider "aws" {
   secret_key = var.secret_key
 }
  
-resource "aws_instance" "example" {
+resource "aws_instance" "ins1" {
   ami           = var.ami_id
   instance_type = var.instance_type
  
