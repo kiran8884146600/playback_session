@@ -5,6 +5,10 @@ name: Terraform Deployment
 on:
    
   workflow_dispatch:
+  
+permissions:
+    id-token: write   # Grant permission for GitHub Actions to request an OIDC token
+    contents: read    # Read access to repository contents  
    
 jobs:
   terraform:
