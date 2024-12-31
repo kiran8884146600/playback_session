@@ -3,7 +3,7 @@
 terraform {
   backend "s3" {
     bucket         = "kiran271222"
-    key            = "rules/terraform.tfstate"
+    key            = "myfold/terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
     
