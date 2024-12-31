@@ -4,7 +4,7 @@ provider "aws" {
 }
  
 resource "aws_instance" "ins1" {
-  ami           = "ami-0e2c8caa4b6378d8c"
+  ami           = "ami-005fc0f236362e99f "
   instance_type = var.instance_type
  
   tags = {
