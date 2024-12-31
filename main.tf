@@ -8,6 +8,6 @@ resource "aws_instance" "ins1" {
   instance_type = ""
  
   tags = {
-    Name = "my-instnc"
+    Name = "ins1"
   }
 }
