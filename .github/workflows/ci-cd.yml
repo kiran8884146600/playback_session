@@ -25,7 +25,7 @@ jobs:
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }}  # Use the role ARN from secrets
           role-session-name: GitHubActionsSession
           aws-region: ${{ secrets.AWS_REGION }}        
-       
+          audience: ${{ secrets.AWS_AUDIENCE }}
 
     - name: Terraform Init
       run: terraform init
